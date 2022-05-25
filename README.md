@@ -20,7 +20,7 @@ Once we finished the initial analysis, we were informed that there were signs of
 
 ## Resources
 
-- Python 3.9.12
+- Python 3.7.13
 - VS Code 1.67.2
 - Jupyter Notebook
 - [students_complete.csv](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/students_complete.csv)
@@ -32,11 +32,13 @@ Once we finished the initial analysis, we were informed that there were signs of
 After we replaced the the grades of the 9th Grade at Thomas High School with "NaN", our overall results changed across the board.
 
 ### District Summary
-Our original district summary: ![District Summary 1](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/District%20Summary%201.png)
+Our original district summary:
+
+![District Summary 1](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/District%20Summary%201.png)
 
 Our new district summary: ![District Summary 2](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/District%20Summary%202.png)
 
-There was no change in our overall district summary.
+Immediately, we can see that by changing all 9th grade scores at Thomas High School to NaN, our district summary has changed. Our average math score went down, and our % Overall Passing score went down as well for the entire district.
 
 ### School Summary
 
@@ -58,7 +60,10 @@ We can see that that after the change in analysis, average scores went up, as we
 
 Here are some snapshots of the results *after* the analysis adjustment:
 
-1. Math and reading scores by grade: ![Math and Reading Scores](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/Math%20Scores%20by%20Grade%202.png) 
+1. Math and reading scores by grade: 
+
+![Math and Reading Scores](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/Math%20Scores%20by%20Grade%202.png) 
+
 2. Scores by school spending: ![Scores by School Spending](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/Scores%20by%20School%20Spending%202.png)
 3. Score by school size: ![Score by school size](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/Scores%20by%20School%20Size%202.png)
 4. Score by school type: ![Score by school type](https://github.com/bessobrien/School_District_Analysis/blob/main/Resources/Scores%20by%20School%20Type%202.png)
@@ -72,7 +77,7 @@ Overall, it was important to know, recognize, and clean our data in response to 
 
 1. For Thomas High School, average reading score went up, while average math score went down.
 2. Thomas High School Overall % Passing rate went down.
-3.
-4.
+3. District average math score decreased.
+4. Our overall % passing rate for the entire district went down by 3 tenths of a percentage.
 
-Good data drives good decisions,which drives good success!
+Good data drives good decisions, which drives good success!
